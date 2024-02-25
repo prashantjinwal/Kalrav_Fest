@@ -75,7 +75,7 @@ const Homepage = () => {
        
 		{/*  video */}
 		<div  className="flex justify-center px-3 ">
-		<video className="videoReel w-[11em] lg:w-[25em] border-2 border-solid rounded-md border-[#dda15e]" muted  autoPlay loop src={process.env.PUBLIC_URL + "/images/animations/video1.mp4"}   ></video>
+		<video className="videoReel w-[11em] lg:w-[25em] border-2 border-solid rounded-md border-[#dda15e]"  autoPlay loop src={process.env.PUBLIC_URL + "/images/animations/video1.mp4"}   ></video>
 		</div>
 
 
