@@ -80,7 +80,7 @@ const Homepage = () => {
 
 
 		{/* divider  */}
-		<div className=" flex justify-center pt-6 pb-~9">
+		<div className=" flex justify-center pt-6 pb-9">
 			<img className=" lg:hidden" src={process.env.PUBLIC_URL + "/images/text/Divider.png"} alt="" />
 			<img className="hidden lg:block" src={process.env.PUBLIC_URL + "/images/text/bigD.png"} alt="" />
 		</div>
