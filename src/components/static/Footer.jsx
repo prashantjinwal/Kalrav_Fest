@@ -27,7 +27,7 @@ const Footer = () => {
 				<div className="flex gap-4 justify-center py-5"> 
 				<a href="https://www.instagram.com/kalrav_dduc/"> <img  className="" src={process.env.PUBLIC_URL + "/images/text/insta.png"} alt="instagram" /></a> 
 				<a href="#"><img  className="" src={process.env.PUBLIC_URL + "/images/text/twitter.png"} alt="" /></a>
-				<a href="#"><img  className="" src={process.env.PUBLIC_URL + "/images/text/linkdin.png"} alt="" /></a>
+				<a href="https://www.linkedin.com/in/kalrav-dduc-4642b32b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img  className="" src={process.env.PUBLIC_URL + "/images/text/linkdin.png"} alt="" /></a>
 				<a href="#"><img  className="" src={process.env.PUBLIC_URL + "/images/text/youtube.png"} alt="" /></a>
 
 				</div>
