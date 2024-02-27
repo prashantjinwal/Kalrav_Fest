@@ -7,8 +7,8 @@ function Accordian({questions , answer}) {
     
     <>
      
-        <div className="main-heading">
-          <img className='w-[2em]' onClick={() => setshow(!show) } src={process.env.PUBLIC_URL + "/svg/arrow.svg"} alt="+"  />
+        <div className="main-heading" onClick={() => setshow(!show) } >
+          <img className='w-[2em]'  src={process.env.PUBLIC_URL + "/svg/arrow.svg"} alt="+"  />
           <h3>{questions}</h3>
         </div>
         {
