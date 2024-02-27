@@ -43,7 +43,7 @@ const Footer = () => {
 				<div className=" text-sm text-[#b79563] ">
 					<h2 className=" flex justify-center font-semibold">2024 KALRAV. All rights reserved.</h2>
 					<p className="flex py-1 justify-center"> Designed by <span className="px-1 text-white ">  <a href="https://www.linkedin.com/in/harsh-vardhan-413100230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> Harsh Vardhan </a> </span></p>
-					<p className="flex flex-wrap justify-center"> Developed by <span className="px-1 font-semibold text-white"> <a href="https://github.com/prashantjinwal"> Prashant Jinwal </a> </span>  </p>
+					<p className="flex flex-wrap justify-center"> Developed by <span className="px-1 font-semibold text-white"> <a href="https://www.linkedin.com/in/prashant-jinwal-b863142a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> Prashant Jinwal </a> </span>  </p>
 				</div>
 
 			</div>	
