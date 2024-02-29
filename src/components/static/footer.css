@@ -1,0 +1,10 @@
+
+@font-face {
+    font-family: addressF;
+    src: url(../../../public/iomanoid/iomanoid\ front.ttf);
+}
+
+.address{
+    font-family: addressF;
+
+}

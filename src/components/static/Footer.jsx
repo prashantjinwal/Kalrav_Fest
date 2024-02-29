@@ -1,4 +1,5 @@
 import React from "react";
+import "./footer.css"
 const Footer = () => {
 	return (
 		<div className="text-white">
@@ -20,8 +21,12 @@ const Footer = () => {
 				</div>
 				
 
-				<div className="px-5 py-3">
-						<img src={process.env.PUBLIC_URL + "/images/text/address-plate.png"} alt="" />
+				<div className=" address px-5 py-3">
+						{/* <img src={process.env.PUBLIC_URL + "/images/text/address-plate.png"} alt="" /> */}
+						<h2 className=" text-3xl">DDUC</h2>
+						<p className="text-sm">DEEN DAYAL UPADHAYA COLLEGE. DELHI UNIVERSITY</p>
+						<p className="text-sm">AZAD HIND FAUJ MARG, SECTOR-3</p>
+						<p className="text-sm">Dwarka, New Delhi, 110078</p>
 				</div>
 				     {/*  Social media icon */}
 				<div className="flex gap-4 justify-center py-5"> 
