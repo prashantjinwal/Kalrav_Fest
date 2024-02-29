@@ -1,0 +1,9 @@
+
+@font-face {
+    font-family: heads;
+    src: url(../../public/iomanoid/iomanoid.ttf);
+}
+.headings{
+    font-family: heads;
+    color: #BE9D6C;
+}

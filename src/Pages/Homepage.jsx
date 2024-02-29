@@ -2,6 +2,7 @@ import React from "react";
 import Accodian from "../components/dynamic/Faqcom";
 import Slider from "../components/dynamic/Slider";
 import Team1,{Coordinaters} from "../assets/Team";
+import "./home.css"
 
 const Homepage = () => {
 	return (
@@ -23,9 +24,12 @@ const Homepage = () => {
 		
 			<div className="flex justify-center">
 				<div className="flex justify-center  rounded-xl  w-[12em] h-[5em] relative  bg-opacity-5 backdrop-filter bg-brown-50 backdrop-blur-md">
+
 				<img className="flex bg-transparent z-1 pt-5 justify-center absolute" src={process.env.PUBLIC_URL + "/images/text/Theme.png"} alt="Theme" />
+				
 				</div>
 			</div>
+			
 		</div>
 
 		<div className="flex justify-center py-6">

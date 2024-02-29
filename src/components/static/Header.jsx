@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, useLocation } from "react-router-dom";
+import "./nav.css"
 
 function classNames(...classes) {
 	return classes.filter(Boolean).join(" ");
@@ -26,10 +27,10 @@ export default function Header() {
 	  }, [pathname])
 
 	return (
-		<Disclosure as="nav" className="bg-[#000000] ">
+		<Disclosure as="nav" className="bg-[#000000] blur-box ">
 			{({ open }) => (
 				<>
-					<div className="mx-auto my-2 max-w-7xl px-2 sm:px-6 lg:px-8  ">
+					<div className="mx-auto my-1 max-w-7xl px-2 sm:px-6 lg:px-8  ">
 						<div className="relative flex h-16 items-center justify-between">
 							<div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
 								{/* Mobile menu button*/}
