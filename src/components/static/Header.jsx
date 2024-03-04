@@ -3,6 +3,7 @@ import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, useLocation } from "react-router-dom";
 import "./nav.css"
+// import Register from "./Register";
 
 function classNames(...classes) {
 	return classes.filter(Boolean).join(" ");
@@ -13,6 +14,7 @@ export default function Header() {
 		{ name: "Itinery", href: "/Itinary", current: false },
 		{ name: "Competition", href: "/Competition", current: false },
 		{ name: "Sponsors", href: "/Sponsors", current: false },
+		{ name: "Register", href: "/Register" , current:false },
 		
 	
 	]);
@@ -73,11 +75,19 @@ export default function Header() {
 								</div>
 							</div>
 							<div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-	{/* insert g-form*/}	<a href="#"> 
+	
+						
+								
+							    <Link to="/Register" key="Register">
 							    <button className="text-white text-base btn-res  hover:bg-[#f9b550] font-mono font-semibold rounded-full px-5 lg:px-4 py-2 bg-[#cda160]">
 													REGISTER
-								</button>	
-							</a>							
+								</button>
+								</Link>	
+                                
+								
+								{/* <Register/> */}
+
+
 							</div>
 						</div>
 					</div>

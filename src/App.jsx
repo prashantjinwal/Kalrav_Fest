@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Homepage from "./Pages/Homepage";
 import Itinary from "./Pages/Itinary";
 import Competition from "./Pages/Competition";
-
+import Register from "./Pages/Register";
 import Sponsors from "./Pages/Sponsors";
 import Loader from "./components/loader/Loader";
 import Header from "./components/static/Header";
@@ -33,6 +33,7 @@ const App = () => {
 						<Route path="/Itinary" element={<Itinary />} />
 						<Route path="/Competition" element={<Competition />} />
 						<Route path="/Sponsors" element={<Sponsors />} />
+						<Route path="/Register" element={<Register/>} />
 					</Routes>
 					<Footer />
 				</>
