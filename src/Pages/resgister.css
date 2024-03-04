@@ -1,0 +1,27 @@
+/* .main-body{
+    background: url(../backRes.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    
+} */
+
+@font-face {
+    font-family: heads;
+    src: url(../../public/iomanoid/iomanoid.ttf);
+}
+/* .headings{
+    font-family: heads;
+    color: #BE9D6C;
+} */
+@font-face {
+    font-family: addressF;
+    src: url(../../public/iomanoid/iomanoid\ front.ttf);
+}
+
+.headings{
+    font-family: addressF;
+
+}
+.btn{
+    font-family: addressF;
+}
