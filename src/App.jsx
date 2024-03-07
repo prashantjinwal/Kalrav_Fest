@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Route, Routes } from "react-router-dom";
 import Homepage from "./Pages/Homepage";
 import Itinary from "./Pages/Itinary";
 import Competition from "./Pages/Competition";
@@ -7,7 +8,9 @@ import Sponsors from "./Pages/Sponsors";
 import Loader from "./components/loader/Loader";
 import Header from "./components/static/Header";
 import Footer from "./components/static/Footer";
-import { Route, Routes } from "react-router-dom";
+import Day from "./Resgister/Day";
+import Day3 from "./Resgister/Day3";
+import Day2 from "./Resgister/Day2";
 const App = () => {
 
 	const [isLoading, setIsLoading] = useState(true);
@@ -17,7 +20,7 @@ const App = () => {
 		const FakeDataFetch = () =>{
 			setTimeout(() =>{
 				setIsLoading(false);
-			},4500);
+			},4700);
 		}
 		FakeDataFetch();
 	},[])
@@ -34,6 +37,11 @@ const App = () => {
 						<Route path="/Competition" element={<Competition />} />
 						<Route path="/Sponsors" element={<Sponsors />} />
 						<Route path="/Register" element={<Register/>} />
+						<Route path="/Register/Day" element={<Day/>} />
+						<Route path="/Register/Day2" element={<Day2/>} />
+						<Route path="/Register/Day3" element={<Day3/>} />
+							
+						
 					</Routes>
 					<Footer />
 				</>

@@ -48,11 +48,11 @@ export default function Header() {
 							</div>
 							<div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
 								<div className="flex flex-shrink-0 items-center">
-									<img
+									<a href="kalravdduc.in"> <img
 										className="h-12 w-auto pr-5"
 										src={process.env.PUBLIC_URL + "/images/home/Logo-main.png"}
 										alt="Your Company"
-									/>
+									/></a>
 								</div>
 								<div className="hidden sm:ml-8 sm:block">
 									<div className="flex space-x-4">
