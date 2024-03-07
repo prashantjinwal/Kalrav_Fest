@@ -1,0 +1,8 @@
+@font-face {
+    font-family: main;
+    src: url(.././../public/iomanoid/iomanoid\ front.ttf);
+}
+
+.head{
+    font-family: main , 'Arial Narrow', Arial, sans-serif;
+}
