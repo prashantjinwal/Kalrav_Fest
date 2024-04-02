@@ -1,44 +1,74 @@
-// import Comps from "../assets/CompData";
-// import Compscard from "../components/dynamic/Compi";
+import posters from "../assets/CompData";
+import Compscard from "../components/dynamic/Compi";
+import { Rhapsody,Kalamkaar,Raaga} from "../assets/CompData";
 
 
 function Competition() {
 	return (
 		<>
+		
+	<div className="mx-5 ">
+		{/* polaroid */}
+    <h4 className= "comptextheader text-white bg-black inline-block mb-2 px-2 text-4xl mt-9 lg:ml-[3em] lg:text-6xl border border-white border-double">Polaroid </h4>
+	{
+		posters.map((post) => (
+			<Compscard src={post.src} link={post.link} />
+		))
+	}
+
+	  {/*  Divider */}
+	  <div className=" flex justify-center py-3">
+			<img className=" lg:hidden" src={process.env.PUBLIC_URL + "/images/text/Divider.png"} alt="" />
+			<img className="hidden lg:block" src={process.env.PUBLIC_URL + "/images/text/bigD.png"} alt="" />
+		</div>
+
+	{/* Rhapsody */}
+    <h4 className= "comptextheader text-white bg-black inline-block mb-2 px-2 text-4xl mt-9 lg:ml-[3em] lg:text-6xl border border-white border-double">Rhapsody </h4>
+	{
+		Rhapsody.map((post) => (
+			<Compscard src={post.src} link={post.link} />
+		))
+	}
+
+
+	 {/*  Divider */}
+	<div className=" flex justify-center py-3">
+			<img className=" lg:hidden" src={process.env.PUBLIC_URL + "/images/text/Divider.png"} alt="" />
+			<img className="hidden lg:block" src={process.env.PUBLIC_URL + "/images/text/bigD.png"} alt="" />
+	</div>
+
+
+	{/* Kalamkaar  */}
+    <h4 className= "comptextheader text-white bg-black inline-block mb-2 px-2 text-4xl mt-9 lg:ml-[3em] lg:text-6xl border border-white border-double">Kalamkaar  </h4>
+	{
+		Kalamkaar.map((post) => (
+			<Compscard src={post.src} link={post.link} />
+		))
+	}
+
+
+	 {/*  Divider */}
+	<div className=" flex justify-center py-3">
+			<img className=" lg:hidden" src={process.env.PUBLIC_URL + "/images/text/Divider.png"} alt="" />
+			<img className="hidden lg:block" src={process.env.PUBLIC_URL + "/images/text/bigD.png"} alt="" />
+	</div>
+
+
+	{/* Raaga dance society   */}
+    <h4 className= "comptextheader text-white bg-black inline-block mb-2 px-2 text-4xl mt-9 lg:ml-[3em] lg:text-6xl border border-white border-double">Raaga dance society   </h4>
+	{
+		Raaga.map((post) => (
+			<Compscard src={post.src} link={post.link} />
+		))
+	}
+	</div>
+
+
+			
+
+
+
 	
-
-		{/* <div className="px-5">
-
-		<div className="flex justify-center">
-		    <div className="flex justify-center  rounded-xl mt-[2em] w-[16em] h-[4em] relative  bg-opacity-5 backdrop-filter bg-brown-50 backdrop-blur-md">
-				<img className="flex bg-transparent z-1 p-1 pt-5 justify-center absolute" src={process.env.PUBLIC_URL + "/images/text/Competitions.png"} alt="Theme" />
-		    </div>
-
-		</div>
-
-
-		<div className="flex flex-wrap justify-center mt-[3em] gap-7 lg:gap-[5em]" >
-			{Comps.map((Comps) => (
-				<Compscard
-					src={Comps.src}
-					div={Comps.div}
-					/>
-			))}
-	</div>
-
-
-
-		</div>
-			 */}
-
-
-
-	<div className="h-[100vh] flex justify-center items-center">
-
-		<h2 className="font-semibold font-mono text-white text-3xl">COMING SOON...</h2>
-
-	</div>
-
 
 
 
