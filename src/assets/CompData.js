@@ -1,68 +1,90 @@
-const Comps =[
+
+const posters = [
     {
-        src:"/images/Comps/comp1.png",
-        div:"/images/text/Divider.png"
+        title:"Polaroid",
+        src:"/posters/pola01.png",
+        link:"https://krayonnz.page.link/5vqwXZnk3cdbZFGq5"
     },
-
     {
-        src:"/images/Comps/comp1.png",
-        div:"/images/text/Divider.png"
+        title:"Polaroid",
+        src:"/posters/pola2.png",
+        link:"https://forms.gle/LVSyqjvqQUZygmyi8"
     },
-
     {
-        src:"/images/Comps/comp1.png",
-        div:"/images/text/Divider.png"
-
-    },
-
-    {
-        src:"/images/Comps/comp1.png",
-        div:"/images/text/Divider.png"
-    },
-
-    {
-        src:"/images/Comps/comp1.png",
-        div:"/images/text/Divider.png"
-    },
-
-    {
-        src:"/images/Comps/comp1.png",
-        div:"/images/text/Divider.png"
+        title:"Polaroid",
+        src:"/posters/pola3.png",
+        link:"https://krayonnz.page.link/ZabFYSnh3BMDT2Yz5"
     }
-];
+]
 
-const Coordinaters =[
+const Rhapsody =[
     {
-        src:"/images/Comps/comp1.png",
-        div:"/images/text/Divider.png"
+        title:"Rhapsody",
+        src:"/posters/rhap1.png",
+        link:"https://linktr.ee/rhapsody2024"
     },
-
     {
-        src:"/images/Comps/comp1.png",
-        div:"/images/text/Divider.png"
+        title:"Rhapsody",
+        src:"/posters/rhap2.png",
+        link:"https://linktr.ee/rhapsody2024"
     },
-
     {
-        src:"/images/Comps/comp1.png",
-        div:"/images/text/Divider.png"
-
+        title:"Rhapsody",
+        src:"/posters/rhap3.png",
+        link:"https://linktr.ee/rhapsody2024"
     },
-
     {
-        src:"/images/Comps/comp1.png",
-        div:"/images/text/Divider.png"
+        title:"Rhapsody",
+        src:"/posters/rhap4.png",
+        link:"https://linktr.ee/rhapsody2024"
     },
-
     {
-        src:"/images/Comps/comp1.png",
-        div:"/images/text/Divider.png"
-    },
-
-    {
-        src:"/images/Comps/comp1.png",
-        div:"/images/text/Divider.png"
+        title:"Rhapsody",
+        src:"/posters/rhap5.png",
+        link:"https://linktr.ee/rhapsody2024"
     }
 ]
 
 
-export default Comps;
+const Kalamkaar  =[
+    {
+        title:"Kalamkaar ",
+        src:"/posters/kalam1.jpg",
+        link:"https://forms.gle/QyMNrPqsviy2nE7P9"
+    },
+    {
+        title:"Kalamkaar ",
+        src:"/posters/kalam2.jpg",
+        link:"https://forms.gle/4S9fufMNa8QczVnz7"
+    },
+    {
+        title:"Kalamkaar ",
+        src:"/posters/kalam3.jpg",
+        link:"https://forms.gle/AoYYubgyE7VeFA4CA"
+    },
+    {
+        title:"Kalamkaar ",
+        src:"/posters/kalam4.jpg",
+        link:"https://forms.gle/BmfKbcwEiXC8yfyt5"
+    },
+    
+]
+const Raaga  = [
+    {
+        title:"Raaga dance society  ",
+        src:"/posters/Raaga1.png",
+        link:"https://forms.gle/QyMNrPqsviy2nE7P9"
+    },
+    {
+        title:"Raaga dance society  ",
+        src:"/posters/Raaga2.png",
+        link:"https://docs.google.com/forms/d/e/1FAIpQLSeR0QPg9_IaoCQ4Fs-gKn-QRY-QN7GSIxKN768V4e9Pnhh8nA/viewform"
+    },
+    
+    
+]
+
+
+
+export default posters
+export {Rhapsody,Kalamkaar , Raaga};

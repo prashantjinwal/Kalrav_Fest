@@ -15,6 +15,10 @@
 	font-family: name;
 	src: url(../../public/iomanoid/iomanoid\ shine.ttf);
 }
+@font-face {
+	font-family: heade;
+	src: url(../../public/iomanoid/iomanoid\ front.ttf);
+}
 
 * {
 	margin: 0px;
@@ -22,6 +26,9 @@
 	box-sizing: border-box;
 
 	
+}
+.comptextheader{
+	font-family: "heade" , Courier, monospace;
 }
 .videoReel{
 	transform: rotate(270deg);
