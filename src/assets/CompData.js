@@ -73,7 +73,7 @@ const Raaga  = [
     {
         title:"Raaga dance society  ",
         src:"/posters/Raaga1.png",
-        link:"https://forms.gle/QyMNrPqsviy2nE7P9"
+        link:"https://docs.google.com/forms/d/e/1FAIpQLSezt_jgb113BtQ9LEMZclYTuqQsXgxe-jB760mwmsV2RJsA8g/viewform"
     },
     {
         title:"Raaga dance society  ",
