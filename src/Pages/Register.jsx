@@ -11,7 +11,7 @@ function Register() {
     <h3 className=' text-red-600 font-semibold text-2xl py-3 mb-5' > This page will updated Soon.. </h3>
 
     <div className='headings flex justify-center'>
-        <h3 className=' text-white text-4xl lg:text-5xl font-bold '> Click On The Below Section To Register DAY-WISE For <span className=' font-bold text-yellow-600'>KALRAV</span> 24 Passes </h3>
+        <h3 className=' text-white text-4xl lg:text-5xl font-bold '> Click On The Below Section To Register DAY-WISE For <span className=' font-bold text-yellow-600'>KALRAV</span> 24 Passes :- </h3>
     </div>
 
     {/* divider */}
