@@ -11,13 +11,12 @@ function classNames(...classes) {
 export default function Header() {
 	const [navigation, setNavigation] = useState([
 		{ name: "Home", href: "/", current: true },
-		{ name: "Itinery", href: "/Itinary", current: false },
+		{ name: "Itinerary", href: "/Itinary", current: false },
 		{ name: "Competition", href: "/Competition", current: false },
 		{ name: "Sponsors", href: "/Sponsors", current: false },
 		{ name: "Register", href: "/Register" , current:false },
-		
-	
 	]);
+
 	const { pathname } = useLocation();	  
 
 	useEffect(() => {

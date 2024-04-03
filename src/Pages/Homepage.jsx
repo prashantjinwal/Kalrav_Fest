@@ -9,7 +9,7 @@ const Homepage = () => {
 		<>
 	<div className="px-5 ">
 		
-		<div className="container h-[25em] flex lg:h-[49em] justify-center">
+		<div className="container h-[25em] flex lg:h-[49em] justify-center m-auto">
 			{/* <img className="   shadow-slate-900 " src={process.env.PUBLIC_URL + "/images/animations/GodANI.gif"} alt="#"/> */}
 		</div>
 
