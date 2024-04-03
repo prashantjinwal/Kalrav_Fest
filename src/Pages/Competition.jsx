@@ -1,6 +1,6 @@
 import posters from "../assets/CompData";
 import Compscard from "../components/dynamic/Compi";
-import { Rhapsody,Kalamkaar,Raaga} from "../assets/CompData";
+import { Rhapsody, Kalamkaar, Raaga, robotic, Sangyaan, Enactus, wdc, FinS, nE } from "../assets/CompData";
 
 
 function Competition() {
@@ -61,6 +61,123 @@ function Competition() {
 			<Compscard src={post.src} link={post.link} />
 		))
 	}
+
+
+
+	 {/*  Divider */}
+	<div className=" flex justify-center py-3">
+			<img className=" lg:hidden" src={process.env.PUBLIC_URL + "/images/text/Divider.png"} alt="" />
+			<img className="hidden lg:block" src={process.env.PUBLIC_URL + "/images/text/bigD.png"} alt="" />
+	</div>
+
+
+	{/* Robotics club */}
+    <h4 className= "comptextheader text-white bg-black inline-block mb-2 px-2 text-4xl mt-9 lg:ml-[3em] lg:text-6xl border border-white border-double">Robotics Club </h4>
+	{
+		robotic.map((post) => (
+			<Compscard src={post.src} link={post.link} />
+		))
+	}
+
+
+	 {/*  Divider */}
+	<div className=" flex justify-center py-3">
+			<img className=" lg:hidden" src={process.env.PUBLIC_URL + "/images/text/Divider.png"} alt="" />
+			<img className="hidden lg:block" src={process.env.PUBLIC_URL + "/images/text/bigD.png"} alt="" />
+	</div>
+
+
+	{/* Sangyaan */}
+    <h4 className= "comptextheader text-white bg-black inline-block mb-2 px-2 text-4xl mt-9 lg:ml-[3em] lg:text-6xl border border-white border-double">Sangyaan </h4>
+	{
+		Sangyaan.map((post) => (
+			<Compscard src={post.src} link={post.link} />
+		))
+	}
+
+
+
+	 {/*  Divider */}
+	<div className=" flex justify-center py-3">
+			<img className=" lg:hidden" src={process.env.PUBLIC_URL + "/images/text/Divider.png"} alt="" />
+			<img className="hidden lg:block" src={process.env.PUBLIC_URL + "/images/text/bigD.png"} alt="" />
+	</div>
+
+
+	{/* Enactus */}
+    <h4 className= "comptextheader text-white bg-black inline-block mb-2 px-2 text-4xl mt-9 lg:ml-[3em] lg:text-6xl border border-white border-double">Enactus </h4>
+	{
+		Enactus.map((post) => (
+			<Compscard src={post.src} link={post.link} />
+		))
+	}
+
+
+	 {/*  Divider */}
+	<div className=" flex justify-center py-3">
+			<img className=" lg:hidden" src={process.env.PUBLIC_URL + "/images/text/Divider.png"} alt="" />
+			<img className="hidden lg:block" src={process.env.PUBLIC_URL + "/images/text/bigD.png"} alt="" />
+	</div>
+
+
+	{/* Fin-S  */}
+    <h4 className= "comptextheader text-white bg-black inline-block mb-2 px-2 text-4xl mt-9 lg:ml-[3em] lg:text-6xl border border-white border-double">Fin-S  </h4>
+	{
+		FinS.map((post) => (
+			<Compscard src={post.src} link={post.link} />
+		))
+	}
+
+
+	 {/*  Divider */}
+	<div className=" flex justify-center py-3">
+			<img className=" lg:hidden" src={process.env.PUBLIC_URL + "/images/text/Divider.png"} alt="" />
+			<img className="hidden lg:block" src={process.env.PUBLIC_URL + "/images/text/bigD.png"} alt="" />
+	</div>
+
+
+	{/* Fin-S  */}
+    <h4 className= "comptextheader text-white bg-black inline-block mb-2 px-2 text-3xl mt-9 lg:ml-[3em] lg:text-6xl border border-white border-double">North-East Cell </h4>
+	{
+		nE.map((post) => (
+			<Compscard src={post.src} link={post.link} />
+		))
+	}
+
+
+
+
+
+	
+	 {/*  Divider */}
+	<div className=" flex justify-center py-3">
+			<img className=" lg:hidden" src={process.env.PUBLIC_URL + "/images/text/Divider.png"} alt="" />
+			<img className="hidden lg:block" src={process.env.PUBLIC_URL + "/images/text/bigD.png"} alt="" />
+	</div>
+
+
+	{/* Women Development Cell */}
+    <h4 className= "comptextheader text-white bg-black inline-block mb-2 px-2 text-2xl mt-9 lg:ml-[3em] lg:text-5xl border border-white border-double">Women Development Cell </h4>
+	{
+		wdc.map((post) => (
+			<Compscard src={post.src} link={post.link} />
+		))
+	}
+
+
+
+
+
+
+
+
+
+
+	{/*  Divider */}
+	<div className=" flex justify-center py-7">
+		<img className=" lg:hidden" src={process.env.PUBLIC_URL + "/images/text/Divider.png"} alt="" />
+		<img className="hidden lg:block" src={process.env.PUBLIC_URL + "/images/text/bigD.png"} alt="" />
+	</div>
 	</div>
 
 

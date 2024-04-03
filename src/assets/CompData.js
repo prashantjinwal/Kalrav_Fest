@@ -80,11 +80,115 @@ const Raaga  = [
         src:"/posters/Raaga2.png",
         link:"https://docs.google.com/forms/d/e/1FAIpQLSeR0QPg9_IaoCQ4Fs-gKn-QRY-QN7GSIxKN768V4e9Pnhh8nA/viewform"
     },
+      
+]
+
+
+const robotic  = [
+
+
+    {
+        title:"robotic  ",
+        src:"/posters/robo2.png",
+        link:"https://linktr.ee/robocarnival24/"
+    },
+    // {
+    //     title:"robotic ",
+    //     src:"/posters/robo2.png",
+    //     link:"https://linktr.ee/robocarnival24/"
+    // },
+    {
+        title:"robotic ",
+        src:"/posters/robo3.png",
+        link:"https://linktr.ee/robocarnival24/"
+    },
+    {
+        title:"robotic ",
+        src:"/posters/robo4.png",
+        link:"https://linktr.ee/robocarnival24/"
+    },
+    {
+        title:"robotic ",
+        src:"/posters/robo5.png",
+        link:"https://linktr.ee/robocarnival24/"
+    },
     
-    
+
+]
+
+const Sangyaan  = [
+    {
+        title:"sanyaan",
+        src:"/posters/sanyaan1.png",
+        link:"#"
+    },
+    {
+        title:"sanyaan",
+        src:"/posters/sanyaan2.png",
+        link:"#"
+    },
+      
+]
+
+
+const Enactus  = [
+    {
+        title:"Enactus",
+        src:"/posters/enac1.jpg",
+        link:"https://bit.ly/48Crl1m"
+    },
+    // {
+    //     title:"Enactus",
+    //     src:"/posters/sanyaan2.png",
+    //     link:"#"
+    // },
+      
+]
+
+const FinS   = [
+    {
+        title:"Fin-S ",
+        src:"/posters/Finan1.png",
+        link:"#"
+    },
+    // {
+    //     title:"Enactus",
+    //     src:"/posters/sanyaan2.png",
+    //     link:"#"
+    // },
+      
+]
+
+const wdc  = [
+    {
+        title:"wdc",
+        src:"/posters/wdc1.png",
+        link:"https://forms.gle/4WJEYs39V6qcZVxU8"
+    },
+    // {
+    //     title:"Enactus",
+    //     src:"/posters/sanyaan2.png",
+    //     link:"#"
+    // },
+      
+]
+
+
+const nE  = [
+    {
+        title:"north-east cell",
+        src:"/posters/nE1.png",
+        link:"#"
+    },
+    // {
+    //     title:"Enactus",
+    //     src:"/posters/sanyaan2.png",
+    //     link:"#"
+    // },
+      
 ]
 
 
 
 export default posters
-export {Rhapsody,Kalamkaar , Raaga};
+export {Rhapsody,Kalamkaar , Raaga , robotic ,Sangyaan , Enactus , wdc , FinS , nE };
