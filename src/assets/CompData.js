@@ -163,13 +163,24 @@ const wdc  = [
     {
         title:"wdc",
         src:"/posters/wdc1.png",
+        link:"https://forms.gle/83tMaKHzrdtnqnEL7"
+    },
+    {
+        title:"wdc",
+        src:"/posters/wdc2.jpeg",
+        link:"https://forms.gle/cF1brq56D9k3Jjfq5"
+    },
+    {
+        title:"wdc",
+        src:"/posters/wdc3.jpeg",
         link:"https://forms.gle/4WJEYs39V6qcZVxU8"
     },
-    // {
-    //     title:"Enactus",
-    //     src:"/posters/sanyaan2.png",
-    //     link:""
-    // },
+    {
+        title:"wdc",
+        src:"/posters/wdc4.jpeg",
+        link:"https://forms.gle/fijpNxmY2Qg2885K9"
+    },
+    
       
 ]
 
@@ -208,16 +219,21 @@ const EOC  = [
         src:"/posters/EOC1.png",
         link:"https://forms.gle/WFifMi887WT1nEk19"
     },
-    // {
-    //     title:"VSC",
-    //     src:"/posters/sanyaan2.png",
-    //     link:""
-    // },
-      
+     
+]
+
+const Markonic  = [
+    {
+        title:"Markonic",
+        src:"/posters/markonic.png",
+        link:"https://unstop.com/o/vosxhAB?lb=0BInFtG"
+    },
+     
 ]
 
 
 
 
+
 export default posters
-export {Rhapsody,Kalamkaar , Raaga , robotic ,Sangyaan , Enactus , wdc , FinS , nE ,VSC ,EOC };
+export {Rhapsody,Kalamkaar , Raaga , robotic ,Sangyaan , Enactus , wdc , FinS , nE ,VSC ,EOC , Markonic};
