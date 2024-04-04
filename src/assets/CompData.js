@@ -89,14 +89,14 @@ const robotic  = [
 
     {
         title:"robotic  ",
+        src:"/posters/robo1.png",
+        link:"https://linktr.ee/robocarnival24/"
+    },
+    {
+        title:"robotic ",
         src:"/posters/robo2.png",
         link:"https://linktr.ee/robocarnival24/"
     },
-    // {
-    //     title:"robotic ",
-    //     src:"/posters/robo2.png",
-    //     link:"https://linktr.ee/robocarnival24/"
-    // },
     {
         title:"robotic ",
         src:"/posters/robo3.png",
@@ -120,13 +120,13 @@ const Sangyaan  = [
     {
         title:"sanyaan",
         src:"/posters/sanyaan1.png",
-        link:"#"
+        link:"https://www.instagram.com/sangyaan.dduc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
     },
-    {
-        title:"sanyaan",
-        src:"/posters/sanyaan2.png",
-        link:"#"
-    },
+    // {
+    //     title:"sanyaan",
+    //     src:"/posters/sanyaan2.png",
+    //     link:""
+    // },
       
 ]
 
@@ -149,12 +149,12 @@ const FinS   = [
     {
         title:"Fin-S ",
         src:"/posters/Finan1.png",
-        link:"#"
+        link:"https://www.instagram.com/finsdduc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
     },
     // {
     //     title:"Enactus",
     //     src:"/posters/sanyaan2.png",
-    //     link:"#"
+    //     link:""
     // },
       
 ]
@@ -168,7 +168,7 @@ const wdc  = [
     // {
     //     title:"Enactus",
     //     src:"/posters/sanyaan2.png",
-    //     link:"#"
+    //     link:""
     // },
       
 ]
@@ -178,7 +178,7 @@ const nE  = [
     {
         title:"north-east cell",
         src:"/posters/nE1.png",
-        link:"#"
+        link:"https://www.instagram.com/necelldduc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
     },
     // {
     //     title:"Enactus",
@@ -188,7 +188,36 @@ const nE  = [
       
 ]
 
+const VSC  = [
+    {
+        title:"VSC",
+        src:"/posters/vsc.png",
+        link:"https://www.instagram.com/vsc.dduc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+    },
+    // {
+    //     title:"VSC",
+    //     src:"/posters/sanyaan2.png",
+    //     link:""
+    // },
+      
+]
+
+const EOC  = [
+    {
+        title:"EOC",
+        src:"/posters/EOC1.png",
+        link:"https://forms.gle/WFifMi887WT1nEk19"
+    },
+    // {
+    //     title:"VSC",
+    //     src:"/posters/sanyaan2.png",
+    //     link:""
+    // },
+      
+]
+
+
 
 
 export default posters
-export {Rhapsody,Kalamkaar , Raaga , robotic ,Sangyaan , Enactus , wdc , FinS , nE };
+export {Rhapsody,Kalamkaar , Raaga , robotic ,Sangyaan , Enactus , wdc , FinS , nE ,VSC ,EOC };
