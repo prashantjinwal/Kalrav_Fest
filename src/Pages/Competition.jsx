@@ -1,4 +1,4 @@
-import posters from "../assets/CompData";
+import posters, { Yavanika } from "../assets/CompData";
 import Compscard from "../components/dynamic/Compi";
 import { Rhapsody, Kalamkaar, Raaga, robotic, Sangyaan, Enactus, wdc, FinS, nE , VSC , EOC, Markonic } from "../assets/CompData";
 
@@ -110,6 +110,26 @@ function Competition() {
 			<Compscard src={post.src} link={post.link} />
 		))
 	}
+
+
+
+	 {/*  Divider */}
+	<div className=" flex justify-center py-3">
+			<img className=" lg:hidden" src={process.env.PUBLIC_URL + "/images/text/Divider.png"} alt="" />
+			<img className="hidden lg:block" src={process.env.PUBLIC_URL + "/images/text/bigD.png"} alt="" />
+	</div>
+
+
+	{/* markonic */}
+    <h4 className= "comptextheader text-white bg-black inline-block mb-2 px-2 text-4xl mt-9 lg:ml-[3em] lg:text-6xl border border-white border-double">Yavanika </h4>
+	{
+		Yavanika.map((post) => (
+			<Compscard src={post.src} link={post.link} />
+		))
+	}
+
+
+
 
 
 
