@@ -1,0 +1,19 @@
+/* 
+
+.page-back{
+    background:  url(../../public/images/itnarery/bgtransparent.png);
+	
+	background-size: cover;
+    background-position: center; 
+    
+       
+}
+
+@media  (min-width:800px) {
+    .page-back{
+        background:  url(../../public/images/itnarery/destop.png); 
+     
+        background-size: cover;
+        background-position: center; 
+    }
+} */
