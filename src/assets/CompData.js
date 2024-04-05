@@ -230,10 +230,19 @@ const Markonic  = [
     },
      
 ]
+const Yavanika  = [
+    {
+        title:"Yavanika",
+        src:"/posters/yavi.jpg",
+        link:"https://linktr.ee/Mirage2k24"
+    },
+     
+]
+
 
 
 
 
 
 export default posters
-export {Rhapsody,Kalamkaar , Raaga , robotic ,Sangyaan , Enactus , wdc , FinS , nE ,VSC ,EOC , Markonic};
+export {Rhapsody,Kalamkaar , Raaga , robotic ,Sangyaan , Enactus , wdc , FinS , nE ,VSC ,EOC , Markonic ,Yavanika};

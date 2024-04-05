@@ -76,10 +76,10 @@ const Coordinaters = [
     //     name:"rggda",
     //     src:"/images/Team/coor09.jpeg"
     // },
-    // {
-    //     name:"rggda",
-    //     src:"/images/Team/coor10.jpeg"
-    // },
+    {
+        name:"Gauransh",
+        src:"/images/Team/Gauransh.png"
+    },
     {
         name:"Sanket Pathak",
         src:"/images/Team/coor11.jpeg"
