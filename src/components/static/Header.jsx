@@ -31,24 +31,25 @@ export default function Header() {
 		<Disclosure as="nav" className="bg-[#000000] blur-box  ">
 			{({ open }) => (
 				<>
-					<div className="mx-auto my-1 max-w-7xl px-2 sm:px-6 lg:px-8  ">
+					<div className="mx-auto my-1 max-w-7xl px-5 sm:px-6 lg:px-8  ">
 						<div className="relative flex h-16 items-center justify-between">
-							<div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-								{/* Mobile menu button*/}
+							{/* Mobile menu button*/}
+							<div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
+								
 								<Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-yellow-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white ">
 									<span className="absolute -inset-0.5" />
 									<span className="sr-only">Open main menu</span>
 									{open ? (
-										<XMarkIcon className="block h-6 w-6" aria-hidden="true" />
+										<XMarkIcon className="block h-7 w-6" aria-hidden="true" />
 									) : (
-										<Bars3Icon className="block h-6 w-6" aria-hidden="true" />
+										<Bars3Icon className="block h-7 w-6" aria-hidden="true" />
 									)}
 								</Disclosure.Button>
 							</div>
-							<div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-								<div className="flex flex-shrink-0 items-center">
+							<div className="flex flex-1 items-center justify-start sm:items-stretch sm:justify-start">
+								<div className="flex flex-shrink-0 items-center ">
 									<a href="kalravdduc.in"> <img
-										className="h-12 w-auto pr-5"
+										className="h-12 w-auto "
 										src={process.env.PUBLIC_URL + "/images/home/Logo-main.png"}
 										alt="Your Company"
 									/></a>
@@ -63,7 +64,7 @@ export default function Header() {
 													item.current
 														? "bg-gray-900 text-white"
 														: "text-gray-300 hover:bg-yellow-700 hover:text-white",
-													"rounded-md px-3 py-2 text-sm font-medium "
+													"rounded-md px-3 py-2 text-sm font-medium  "
 												)}
 												aria-current={item.current ? "page" : undefined}
 											>
@@ -73,26 +74,25 @@ export default function Header() {
 									</div>
 								</div>
 							</div>
-							<div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+							{/* <Register/> */}
+
+							{/* <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
 	
-						
-								
+					
 							    <Link to="/Register" key="Register">
 							    <button className="text-white text-base btn-res  hover:bg-[#f9b550] font-mono font-semibold rounded-full px-5  lg:text-xl py-2 bg-[#cda160]">
 													REGISTER
 								</button>
 								</Link>	
                                 
-								
-								{/* <Register/> */}
 
+							</div> */}
 
-							</div>
 						</div>
 					</div>
 
-					<Disclosure.Panel className="sm:hidden navfont font-bold">
-						<div className="space-y-1 px-2 pb-3 pt-2">
+					<Disclosure.Panel className="sm:hidden comptextheader font-bold">
+						<div className="space-y-1 px-2 pb-3 pt-2 flex justify-center items-center flex-col  ">
 							{navigation.map((item) => (
 								<Disclosure.Button
 									key={item.name}
@@ -104,7 +104,7 @@ export default function Header() {
 											item.current
 												? "bg-yellow-800 text-white"
 												: "text-gray-300 hover:bg-yellow-700 hover:text-white",
-											"block rounded-md px-3 py-2 text-base font-medium"
+											"block rounded-sm px-[6em] py-2 text-lg font-medium rounded-tl-2xl rounded-br-2xl"
 										)}
 										aria-current={item.current ? "page" : undefined}
 									>
