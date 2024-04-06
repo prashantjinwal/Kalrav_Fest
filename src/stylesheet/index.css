@@ -88,3 +88,19 @@ body{
 .navfont{
 	font-family: 'mainFon', Courier, monospace;
 }
+
+.btn-style{
+	background-color: #f6f7f8;
+    background: linear-gradient(to right , #582f0e, #e2bc2f , #582f0e);
+    background-size: 500px 50px;
+    animation: loader 4s infinite linear;
+
+}
+@keyframes loader {
+    0%{
+        background-position: -500px 0px;
+    }
+    100%{
+        background-position: 500px 0px;
+    }
+}
