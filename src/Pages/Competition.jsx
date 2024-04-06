@@ -9,7 +9,7 @@ function Competition() {
 		
 	<div className="mx-5 ">
 		{/* polaroid */}
-    <h4 className= "comptextheader text-white bg-black inline-block mb-2 px-2 text-4xl mt-9 lg:ml-[3em] lg:text-6xl border border-white border-double">Polaroid </h4>
+    <h4 className= "comptextheader  text-white bg-black inline-block mb-2 px-2 text-4xl mt-9 lg:ml-[3em] lg:text-6xl border border-white border-double">Polaroid </h4>
 	{
 		posters.map((post) => (
 			<Compscard src={post.src} link={post.link} />
