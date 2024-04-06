@@ -28,14 +28,14 @@ export default function Header() {
 	  }, [pathname])
 
 	return (
-		<Disclosure as="nav" className="bg-[#000000] blur-box ">
+		<Disclosure as="nav" className="bg-[#000000] blur-box  ">
 			{({ open }) => (
 				<>
 					<div className="mx-auto my-1 max-w-7xl px-2 sm:px-6 lg:px-8  ">
 						<div className="relative flex h-16 items-center justify-between">
 							<div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
 								{/* Mobile menu button*/}
-								<Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-yellow-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+								<Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-yellow-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white ">
 									<span className="absolute -inset-0.5" />
 									<span className="sr-only">Open main menu</span>
 									{open ? (
@@ -54,7 +54,7 @@ export default function Header() {
 									/></a>
 								</div>
 								<div className="hidden sm:ml-8 sm:block">
-									<div className="flex space-x-4">
+									<div className="flex space-x-4 ">
 										{navigation.map((item) => (
 											<Link
 												key={item.name}
@@ -63,7 +63,7 @@ export default function Header() {
 													item.current
 														? "bg-gray-900 text-white"
 														: "text-gray-300 hover:bg-yellow-700 hover:text-white",
-													"rounded-md px-3 py-2 text-sm font-medium"
+													"rounded-md px-3 py-2 text-sm font-medium "
 												)}
 												aria-current={item.current ? "page" : undefined}
 											>
@@ -78,7 +78,7 @@ export default function Header() {
 						
 								
 							    <Link to="/Register" key="Register">
-							    <button className="text-white text-base btn-res  hover:bg-[#f9b550] font-mono font-semibold rounded-full px-5 lg:px-4 py-2 bg-[#cda160]">
+							    <button className="text-white text-base btn-res  hover:bg-[#f9b550] font-mono font-semibold rounded-full px-5  lg:text-xl py-2 bg-[#cda160]">
 													REGISTER
 								</button>
 								</Link>	
