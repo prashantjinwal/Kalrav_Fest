@@ -110,6 +110,6 @@ body{
 	opacity: 0.3;
     background: linear-gradient(to left , #e2bc2f, #767b91 , #e2bc2f);
     background-size: 500px 50px;
-    animation: loader 5s infinite linear;
+    animation: loader 1.3s infinite linear;
 
 }
