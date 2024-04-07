@@ -1,5 +1,5 @@
 
-const posters = [
+const Polaroid = [
     {
         title:"Polaroid",
         src:"/posters/pola01.png",
@@ -244,5 +244,8 @@ const Yavanika  = [
 
 
 
-export default posters
+export default Polaroid
 export {Rhapsody,Kalamkaar , Raaga , robotic ,Sangyaan , Enactus , wdc , FinS , nE ,VSC ,EOC , Markonic ,Yavanika};
+
+
+
