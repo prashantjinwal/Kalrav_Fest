@@ -10,7 +10,7 @@ function Competition() {
 
 const allowedWords = ["All", "Polaroid", "Rhapsody", "Kalamkaar", "Raaga", "robotic" ,"Sangyaan" ,"Enactus" ,"FinS" , "Womens Development Cell" , "North-east cell" , "Vivekananda study circle" , "Markonic" , "Yavanika" ,"Equal Opportunity Cell"];
 
-const [selectedWord, setSelectedWord] = useState('All');
+const [selectedWord, setSelectedWord] = useState(allowedWords[0]);
 
 
   
@@ -27,8 +27,8 @@ return (
 
     <div className="bg-opacity-5 backdrop-filter bg-brown-100 backdrop-blur-md mx-[3em] w-[16em] flex justify-center  rounded-xl mt-4 border border-solid border-white  " >
       <label className="px-4 text-xs py-3 text-white font-semibold " htmlFor="filteredDropdown">Filter By Category </label>
-      <select  className="Currentstate w-full  rounded-xl bg-[#b06c12] border border-solid border-black pl-3 font-semibold " id="filteredDropdown" onChange={handleSelectWord} value={selectedWord}>
-        <option  value="" placeholder="Filter By Category" >All</option>
+      <select  className=" w-full  rounded-xl bg-[#b06c12] border border-solid border-black pl-3 font-semibold " id="filteredDropdown" onChange={handleSelectWord} value={selectedWord}>
+        <option  value="" placeholder="Filter By Category" ></option>
         {allowedWords.map((word, index) => (
           <option key={index} value={word}>{word}</option>
         ))}
@@ -585,11 +585,7 @@ return (
 			selectedWord === 'Yavanika' &&
 		<> 
 			<div className="mx-5 ">
-			 {/*  Divider */}
-			<div className=" flex justify-center py-3">
-				<img className=" lg:hidden" src={process.env.PUBLIC_URL + "/images/text/Divider.png"} alt="" />
-				<img className="hidden lg:block" src={process.env.PUBLIC_URL + "/images/text/bigD.png"} alt="" />
-			</div>
+			
 
 			{/* Yavanika */}
     		<h4 className= "comptextheader text-white bg-black inline-block mb-2 px-2 text-4xl mt-9 lg:ml-[3em] lg:text-6xl border border-white border-double">Yavanika </h4>
@@ -598,6 +594,11 @@ return (
 					<Compscard src={post.src} link={post.link} />
 			))
 			}
+			 {/*  Divider */}
+			 <div className=" flex justify-center py-3">
+				<img className=" lg:hidden" src={process.env.PUBLIC_URL + "/images/text/Divider.png"} alt="" />
+				<img className="hidden lg:block" src={process.env.PUBLIC_URL + "/images/text/bigD.png"} alt="" />
+			</div>
 
 			</div>
 		</>
