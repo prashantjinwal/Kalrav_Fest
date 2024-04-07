@@ -18,16 +18,16 @@ const handleSelectWord = (event) => {
     const selectedValue = event.target.value;
     setSelectedWord(selectedValue);
 };
-
+// bg-[#b06c12]
 
 return (
 <>
 
  <div className="flex justify-center">
 
-    <div className="bg-opacity-5 backdrop-filter bg-brown-100 backdrop-blur-md mx-[3em] w-[16em] flex justify-center  rounded-xl mt-4 border border-solid border-white  " >
+    <div className="bg-opacity-5 backdrop-filter bg-brown-100 backdrop-blur-md mx-[3em] w-[16em] lg:w-[20em] flex justify-center  rounded-xl my-4 border border-solid border-white  " >
       <label className="px-4 text-xs py-3 text-white font-semibold " htmlFor="filteredDropdown">Filter By Category </label>
-      <select  className=" w-full  rounded-xl bg-[#b06c12] border border-solid border-black pl-3 font-semibold " id="filteredDropdown" onChange={handleSelectWord} value={selectedWord}>
+      <select  className=" bg-gradient-to-r from-[#b06c12] via-[#ca8122] to-[#ffd60a] w-full  rounded-xl  border border-solid border-black pl-3 font-semibold " id="filteredDropdown" onChange={handleSelectWord} value={selectedWord}>
         <option  value="" placeholder="Filter By Category" ></option>
         {allowedWords.map((word, index) => (
           <option key={index} value={word}>{word}</option>
