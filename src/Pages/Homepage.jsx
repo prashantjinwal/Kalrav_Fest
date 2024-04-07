@@ -23,7 +23,7 @@ const Homepage = () => {
 
 		
 			<div className="flex justify-center">
-				<div className="flex justify-center  rounded-xl  w-[12em] h-[5em] relative  bg-opacity-5 backdrop-filter bg-brown-50 backdrop-blur-md">
+				<div className="flex justify-center  rounded-xl  w-[11em] h-[5em] relative  bg-opacity-5 backdrop-filter bg-brown-50 backdrop-blur-md">
 
 				<img className="flex bg-transparent z-1 pt-5 justify-center absolute" src={process.env.PUBLIC_URL + "/images/text/Theme.png"} alt="Theme" />
 				
@@ -53,7 +53,7 @@ const Homepage = () => {
 
 
 			<div className="flex justify-center">
-				<div className="flex justify-center  rounded-xl  w-[12em] h-[5em] relative  bg-opacity-5 backdrop-filter bg-brown-50 backdrop-blur-md">
+				<div className="flex justify-center  rounded-xl  w-[11em] h-[5em] relative  bg-opacity-5 backdrop-filter bg-brown-50 backdrop-blur-md">
 				<img className="flex bg-transparent z-1 pt-5 justify-center absolute" src={process.env.PUBLIC_URL + "/images/text/About.png"} alt="Theme" /></div>
 			</div>
 	</div>

@@ -9,6 +9,8 @@ const [Loader, setLoader] = useState(true);
     return(
         <div className="flex justify-center mt-5 " >
     
+        
+    
     <div className=" p-3 bg-opacity-5 backdrop-filter bg-brown-100 backdrop-blur-md mb-3 rounded-2xl ">
         <div  className="flex justify-center flex-wrap ">
 

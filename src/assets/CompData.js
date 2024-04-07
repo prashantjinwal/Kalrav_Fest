@@ -161,22 +161,22 @@ const FinS   = [
 
 const wdc  = [
     {
-        title:"wdc",
+        title:"Womens Development Cell",
         src:"/posters/wdc1.png",
         link:"https://forms.gle/83tMaKHzrdtnqnEL7"
     },
     {
-        title:"wdc",
+        title:"Womens Development Cell",
         src:"/posters/wdc2.jpeg",
         link:"https://forms.gle/cF1brq56D9k3Jjfq5"
     },
     {
-        title:"wdc",
+        title:"Womens Development Cell",
         src:"/posters/wdc3.jpeg",
         link:"https://forms.gle/4WJEYs39V6qcZVxU8"
     },
     {
-        title:"wdc",
+        title:"Womens Development Cell",
         src:"/posters/wdc4.jpeg",
         link:"https://forms.gle/fijpNxmY2Qg2885K9"
     },
@@ -187,7 +187,7 @@ const wdc  = [
 
 const nE  = [
     {
-        title:"north-east cell",
+        title:"North-east cell",
         src:"/posters/nE1.png",
         link:"https://www.instagram.com/necelldduc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
     },

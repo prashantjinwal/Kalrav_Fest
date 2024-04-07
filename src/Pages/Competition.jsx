@@ -1,15 +1,47 @@
 import posters, { Yavanika } from "../assets/CompData";
 import Compscard from "../components/dynamic/Compi";
 import { Rhapsody, Kalamkaar, Raaga, robotic, Sangyaan, Enactus, wdc, FinS, nE , VSC , EOC, Markonic } from "../assets/CompData";
+import { useState } from "react";
+
+
 
 
 function Competition() {
-	return (
-		<>
+
+const allowedWords = ["All", "Polaroid", "Rhapsody", "Kalamkaar", "Raaga dance society", "robotic" ,"sanyaan" ,"Enactus" ,"Fin-S" , "Womens Development Cell" , "North-east cell" , "VSC" , "Markonic" , "Yavanika"];
+
+const [selectedWord, setSelectedWord] = useState('All');
+
+  
+const handleSelectWord = (event) => {
+    const selectedValue = event.target.value;
+    setSelectedWord(selectedValue);
+};
+
+
+return (
+<>
+
+ <div className="flex justify-center">
+
+    <div className="bg-opacity-5 backdrop-filter bg-brown-100 backdrop-blur-md mx-[3em] w-[16em] flex justify-center  rounded-xl mt-4 border border-solid border-white  " >
+      <label className="px-4 text-xs py-3 text-white font-semibold " htmlFor="filteredDropdown">Filter By Category </label>
+      <select  className="w-full  rounded-xl bg-[#b06c12] border border-solid border-black pl-3 font-semibold " id="filteredDropdown" onChange={handleSelectWord} value={selectedWord}>
+        <option className="" value="" placeholder="Filter By Category" >All</option>
+        {allowedWords.map((word, index) => (
+          <option key={index} value={word}>{word}</option>
+        ))}
+      </select>
+    </div>
+
+ </div>
+
 		
 	<div className="mx-5 ">
+
+
 		{/* polaroid */}
-    <h4 className= "comptextheader  text-white bg-black inline-block mb-2 px-2 text-4xl mt-9 lg:ml-[3em] lg:text-6xl border border-white border-double">Polaroid </h4>
+		<h4 className= "comptextheader  text-white bg-black inline-block mb-2 px-2 text-4xl mt-9 lg:ml-[3em] lg:text-6xl border border-white border-double">Polaroid </h4>
 	{
 		posters.map((post) => (
 			<Compscard src={post.src} link={post.link} />
