@@ -11,7 +11,10 @@ import Footer from "./components/static/Footer";
 import Day from "./Resgister/Day";
 import Day3 from "./Resgister/Day3";
 import Day2 from "./Resgister/Day2";
+
+
 const App = () => {
+
 
 	const [isLoading, setIsLoading] = useState(true);
 
@@ -32,6 +35,7 @@ const App = () => {
 				<>
 					<Header />
 					<Routes>
+
 						<Route path="/" element={<Homepage />} />
 						<Route path="/Itinary" element={<Itinary />} />
 						<Route path="/Competition" element={<Competition />} />
@@ -41,7 +45,6 @@ const App = () => {
 						<Route path="/Register/Day2" element={<Day2/>} />
 						<Route path="/Register/Day3" element={<Day3/>} />
 							
-						
 					</Routes>
 					<Footer />
 				</>
