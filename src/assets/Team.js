@@ -84,9 +84,14 @@ const Coordinaters = [
         name:"Sanket Pathak",
         src:"/images/Team/coor11.jpeg"
     },
+    
     {
         name:"Aryan Pradhan",
         src:"/images/Team/coor12.jpeg"
+    },
+    {
+        name:"Prashant",
+        src:"/images/Team/prh01.png"
     },
     
     {
