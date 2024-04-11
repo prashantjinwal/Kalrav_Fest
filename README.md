@@ -15,7 +15,7 @@ The Kalrav Fest Website serves as the central hub for all information related to
 
 ## Installation
 
-The website is already deployed and accessible online. Simply visit [kalravfest.com](http://www.kalravfest.com) to explore it.
+The website is already deployed and accessible online. Simply visit [kalravfest.com](http://www.kalravdduc.in) to explore it.
 
 ## Usage
 
