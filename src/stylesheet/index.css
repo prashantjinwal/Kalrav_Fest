@@ -93,7 +93,7 @@ body{
 	background-color: #f6f7f8;
     background: linear-gradient(to right , #582f0e, #e2bc2f , #582f0e);
     background-size: 500px 50px;
-    animation: loader 4s infinite linear;
+    animation: loader 4.2s infinite linear;
 
 }
 @keyframes loader {
@@ -113,5 +113,4 @@ body{
     animation: loader 1.3s infinite linear;
 
 }
-
 
