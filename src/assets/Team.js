@@ -89,10 +89,6 @@ const Coordinaters = [
         name:"Aryan Pradhan",
         src:"/images/Team/coor12.jpeg"
     },
-    {
-        name:"Prashant",
-        src:"/images/Team/prh01.png"
-    },
     
     {
         name:"Palak Tiwari",
@@ -102,6 +98,11 @@ const Coordinaters = [
         name:"Anveshika Bhat",
         src:"/images/Team/cu08.jpeg"
     },
+    {
+        name:"Prashant",
+        src:"/images/Team/prh01.png"
+    },
+    
 ];
 
 
