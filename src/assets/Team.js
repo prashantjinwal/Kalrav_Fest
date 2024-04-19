@@ -3,10 +3,10 @@ const Team1 = [
         name:"Harsh Chauhan",
         src:"/images/Team/cu01.jpeg"
     },
-    // {
-    //     name:"dffds",
-    //     src:"/images/Team/cu02.jpeg"
-    // },
+    {
+        name:"dffds",
+        src:"/images/Team/cu02.jpeg"
+    },
     {
         name:"Ayush Jain",
         src:"/images/Team/cu03.jpeg"
@@ -16,7 +16,7 @@ const Team1 = [
     //     name:"rggda",
     //     src:"/images/Team/cu05.jpeg"
     // },
-    
+
     // {
     //     name:"rggda",
     //     src:"/images/Team/cu07.jpeg"
@@ -26,6 +26,10 @@ const Team1 = [
     //     name:"rggda",
     //     src:"/images/Team/cu09.jpeg"
     // },
+    {
+        name:"dsaf",
+        src:"/images/Team/coor03.jpeg"
+    },
    
     {
         name:"Rakshita",
@@ -34,6 +38,10 @@ const Team1 = [
     {
         name:"Saraswati Thapa",
         src:"/images/Team/cu04.jpeg"
+    },
+    {
+        name:"rggda",
+        src:"/images/Team/coor05.jpeg"
     },
 ];
 const Coordinaters = [
@@ -45,18 +53,12 @@ const Coordinaters = [
         name:"Yash Chandola",
         src:"/images/Team/coor02.jpeg"
     },
-    // {
-    //     name:"dsaf",
-    //     src:"/images/Team/coor03.jpeg"
-    // },
+    
     // {
     //     name:"fffsa",
     //     src:"/images/Team/coor04.jpeg"
     // },
-    // {
-    //     name:"rggda",
-    //     src:"/images/Team/coor05.jpeg"
-    // },
+    
     {
         name:"Mayank Suri",
         src:"/images/Team/coor06.jpeg"
@@ -95,10 +97,10 @@ const Coordinaters = [
         name:"Anveshika Bhat",
         src:"/images/Team/cu08.jpeg"
     },
-    {
-        name:"Prashant",
-        src:"/images/Team/prh01.png"
-    },
+    // {
+    //     name:"Prashant",
+    //     src:"/images/Team/prh01.png"
+    // },
     
 ];
 
