@@ -16,10 +16,7 @@ const Team1 = [
     //     name:"rggda",
     //     src:"/images/Team/cu05.jpeg"
     // },
-    {
-        name:"Nalin Yadav",
-        src:"/images/Team/cu06.jpeg"
-    },
+    
     // {
     //     name:"rggda",
     //     src:"/images/Team/cu07.jpeg"
