@@ -3,9 +3,37 @@ import Accodian from "../components/dynamic/Faqcom";
 import Slider from "../components/dynamic/Slider";
 import Team1,{Coordinaters} from "../assets/Team";
 import "./home.css"
+import StarNight from "../components/dynamic/StarNight";
+// import TabButton from "../components/dynamic/TabButton";
+// import EXAMPLES from "../assets/date";
+// import { useState } from "react";
 
 
 const Homepage = () => {
+
+
+	// const [selectedTopic, setSelectedTopic] = useState();
+
+	// function handleSelect(selectedButton) {
+	//   // selectedButton => 'components', 'jsx', 'props', 'state'
+	//   setSelectedTopic(selectedButton);
+	//   // console.log(selectedTopic);
+	// }
+  
+	// console.log('APP COMPONENT EXECUTING');
+  
+	// let tabContent = <p>Please select a topic.</p>;
+  
+	// if (selectedTopic) {
+	//   tabContent = (
+	// 	<div id="tab-content">
+	// 	  <h3>{EXAMPLES[selectedTopic].title}</h3>
+	// 	  <p>{EXAMPLES[selectedTopic].description}</p>
+	// 	  {EXAMPLES[selectedTopic].code}
+		  
+	// 	</div>
+	//   );
+	// }
 
 
 	return (
@@ -81,9 +109,54 @@ const Homepage = () => {
 		</div>
        
 		{/*  video */}
-		<div  className="flex justify-center px-3 ">
+		{/* <div  className="flex justify-center px-3 ">
 		<video className="videoReel w-[11em] lg:w-[25em] border-2 border-solid rounded-md border-[#dda15e]" muted autoPlay loop src={process.env.PUBLIC_URL + "/images/animations/video1.mp4"}   ></video>
-		</div>
+		</div> */}
+	<div className="px-5" >
+		<StarNight/>
+	</div>
+
+		{/* <main className="flex justify-center">
+        
+        <section id="examples">
+          <h2>Examples</h2>
+          <menu className="flex text-white gap-2">
+            <TabButton
+              isSelected={selectedTopic === 'components'}
+              onSelect={() => handleSelect('components')}
+            >
+              Components
+            </TabButton>
+            <TabButton
+              isSelected={selectedTopic === 'jsx'}
+              onSelect={() => handleSelect('jsx')}
+            >
+              JSX
+            </TabButton>
+            <TabButton
+              isSelected={selectedTopic === 'props'}
+              onSelect={() => handleSelect('props')}
+            >
+              Props
+            </TabButton>
+            <TabButton
+              isSelected={selectedTopic === 'state'}
+              onSelect={() => handleSelect('state')}
+            >
+              State
+            </TabButton>
+          </menu>
+		  <div className="px-2">
+          {tabContent}
+		  </div>
+        </section>
+      </main> */}
+
+
+
+
+
+		
 
 
 		{/* divider  */}
