@@ -27,7 +27,7 @@ const Team1 = [
     //     src:"/images/Team/cu09.jpeg"
     // },
     {
-        name:"Harshit Bhalotia",
+        name:"Harshit ",
         src:"/images/Team/coor03.jpeg"
     },
    
