@@ -16,7 +16,7 @@ const Team1 = [
     //     name:"rggda",
     //     src:"/images/Team/cu05.jpeg"
     // },
-   
+
     // {
     //     name:"rggda",
     //     src:"/images/Team/cu07.jpeg"
