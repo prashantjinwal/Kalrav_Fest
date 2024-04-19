@@ -4,7 +4,7 @@ const Team1 = [
         src:"/images/Team/cu01.jpeg"
     },
     {
-        name:"dffds",
+        name:"Priyanshu",
         src:"/images/Team/cu02.jpeg"
     },
     {
@@ -27,7 +27,7 @@ const Team1 = [
     //     src:"/images/Team/cu09.jpeg"
     // },
     {
-        name:"dsaf",
+        name:"Harshit Bhalotia",
         src:"/images/Team/coor03.jpeg"
     },
    
@@ -40,7 +40,7 @@ const Team1 = [
         src:"/images/Team/cu04.jpeg"
     },
     {
-        name:"rggda",
+        name:"Mayank Sharma",
         src:"/images/Team/coor05.jpeg"
     },
 ];
